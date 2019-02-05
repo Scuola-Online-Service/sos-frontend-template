@@ -7,3 +7,9 @@ composer.phar
 
 # Custom
 .idea
+
+# Env logs
+logs
+
+# Env variables
+.env
