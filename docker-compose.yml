@@ -9,7 +9,7 @@ services:
     tty: true
     volumes:
     - ./logs:/var/log/nginx
-    - ./src:/home/templates/sos-frontend
+    - ./src:/home/templates/sos_frontend
     depends_on:
     - db
     environment:
